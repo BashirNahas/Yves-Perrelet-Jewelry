@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+    <style>
+        /* Add CSS styles here for responsiveness */
+        .bg {
+            background-color: #f2f2f2;
+        }
+        
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .menu li {
+            float: left;
+        }
+        
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            background-color: #111;
+        }
+        
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .border {
+            border: 2px solid maroon;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 80%;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media only screen and (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+            .border {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <ul class="menu">
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="products/index.html">Products</a></li>
+            <li class="menu"><a href="aboutus/index.html">About us</a></li>
+            <li class="menu"><a href="contact/index.html">Contact</a></li>
+        </ul>
+
+        <div class="header">
+            <img src="img/logo3.png" alt="logo" class="logo" />
+        </div>
+
+        <br>
+
+        <div class="border right">
+            <h1 style="color: maroon">Yves Perrelet Jewelry</h1><br>
+            <p></p>
+            <section>
+                <h3>Performs custom jewelry</h3>
+                <br>
+                <h3>Repairs and engravings</h3>
+                <br>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg {
+            background-image: url("img/img8.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .menu li {
+            float: left;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu li a:hover {
+            background-color: #111;
+        }
+
+        .border {
+            border: none;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 500px;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .border h1, .border h3, .border p {
+            margin: 15px 0;
+            color: maroon;
+        }
+
+        .map {
+            width: 100%;
+            max-width: 600px; /* Adjusted to 100% for responsiveness */
+            height: 30vw; /* Set height based on viewport width */
+            max-height: 300; /* Set max height for larger screens */
+            border-radius: 40%;
+            margin: auto;
+            display: block;
+        }
+
+        /* Media query for smaller screens */
+        @media only screen and (max-width: 600px) {
+            .map {
+                height: 300px; /* Set a fixed height for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../products/index.html">Products</a></li>
+                <li><a href="../aboutus/index.html">About us</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="border">
+            <h1>Bijouterie Yves Perrelet</h1>
+            <h3>Rue Neuve 13 1er étage</h3>
+            <h3>1003 Lausanne</h3>
+            <p>Tel: <a href="tel:0213128525" style="color: #333;">021 312 85 25</a></p>
+            <p>Fax: <a href="Fax:0213128525" style="color: #333;">021 312 85 25</a></p>
+        </div>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.2406521143925!2d6.627681915389581!3d46.523139570181115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e2e177950c5%3A0x165493948d12dcb5!2sRue+Neuve+13%2F1er+%C3%A9tage%2C+1003+Lausanne!5e0!3m2!1sfr!2sch!4v1524914397442" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
